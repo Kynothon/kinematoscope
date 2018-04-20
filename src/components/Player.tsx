@@ -2,6 +2,7 @@ import '!style-loader!css-loader!video.js/dist/video-js.css';
 
 import * as React from "react";
 import * as Videojs from "video.js"
+import "videojs-contrib-hls"
 
 export interface IVideoPlayerProps { autoplay: boolean, controls: boolean, sources: Array<{ src: string, type: string }> }
 

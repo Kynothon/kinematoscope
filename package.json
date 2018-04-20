@@ -20,6 +20,7 @@
     "@types/react-dom": "^16.0.5",
     "@types/video.js": "^6.2.4",
     "typescript": "^2.8.3",
-    "video.js": "^6.7.3"
+    "video.js": "^6.7.3",
+    "videojs-contrib-hls": "^5.14.1"
   }
 }

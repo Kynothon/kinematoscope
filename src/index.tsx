@@ -11,8 +11,15 @@ const videoJsOptions = {
   autoplay: true,
   controls: true,
   sources: [{
-    src: '/03_caminandes_llamigos_1080p.mp4',
-    type: 'video/mp4'
+    // Plain MP4
+    // src: '/03_caminandes_llamigos_1080p.mp4',
+    // type: 'video/mp4'
+    // HLS / TS
+    // src: 'https://d2zihajmogu5jn.cloudfront.net/bipbop-advanced/bipbop_16x9_variant.m3u8',
+    // type: 'application/x-mpegURL'
+    // HLS / MP4
+    src: 'https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8',
+    type: 'application/x-mpegURL'
   }]
 }
 
