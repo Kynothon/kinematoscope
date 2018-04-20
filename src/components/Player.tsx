@@ -27,7 +27,7 @@ export class VideoPlayer extends React.Component<IVideoPlayerProps, {}> {
         return (
             <div>
                 <div data-vjs-player="true">
-                    <video ref={node => this.videoNode = node} className="video-js"/>
+                    <video ref={node => this.videoNode = node} className="video-js vjs-default-skin vjs-16-9 vjs-big-play-centered"/>
                 </div>
             </div>
         )
